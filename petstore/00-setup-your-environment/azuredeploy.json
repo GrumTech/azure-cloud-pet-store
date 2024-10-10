@@ -57,10 +57,10 @@
             "name": "[parameters('serverfarms_azurepetstoreasp_name')]",
             "location": "East US",
             "sku": {
-                "name": "P1v2",
-                "tier": "PremiumV2",
-                "size": "P1v2",
-                "family": "Pv2",
+                "name": "B1",
+                "tier": "BasicB1",
+                "size": "B1",
+                "family": "B1",
                 "capacity": 1
             },
             "kind": "linux",
