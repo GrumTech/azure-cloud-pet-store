@@ -19,12 +19,11 @@
     "resources": [
         {
             "type": "Microsoft.ContainerRegistry/registries",
-            "apiVersion": "2020-11-01-preview",
+            "apiVersion": "2022-12-01",
             "name": "[parameters('registries_azurepetstorecr_name')]",
             "location": "East US",
             "sku": {
-                "name": "Standard",
-                "tier": "Standard"
+                "name": "Standard"
             },
             "properties": {
                 "adminUserEnabled": false,
