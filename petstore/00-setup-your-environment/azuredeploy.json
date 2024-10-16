@@ -21,7 +21,7 @@
             "type": "Microsoft.ContainerRegistry/registries",
             "apiVersion": "2020-11-01-preview",
             "name": "[parameters('registries_azurepetstorecr_name')]",
-            "location": "eastus",
+            "location": "East US",
             "sku": {
                 "name": "Standard",
                 "tier": "Standard"
